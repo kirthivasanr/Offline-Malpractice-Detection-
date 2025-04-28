@@ -9,7 +9,7 @@ This project helps monitor and detect suspicious activities (like head movements
 
 - 🎥 Real-time video monitoring with camera.
 - 🦰 Intelligent detection using **OpenCV** and **MediaPipe**.
-- 🚨 Alerts for malpractice behaviors like frequent head turns, eye movement, absence.
+- 🚨 Alerts for malpractice behaviors like frequent head turns, hand signs.
 - 📊 User-friendly GUI built with **Tkinter**.
 - 🛠 Offline functionality — **no internet required**.
 - 📂 Recording and saving of suspicious frames for review.
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 4. **Run the application**  
 ```bash
-python main.py
+python exam_monitor.py
 ```
 
 ---
@@ -64,13 +64,11 @@ python main.py
 
 ```plaintext
 📆 Malpractice-Detection
- ├📂 assets/            # Images/icons used
- ├📂 models/            # Pre-trained models (if any)
- ├📜 main.py            # Main application file
- ├📜 detection.py       # Core detection logic
- ├📜 gui.py             # Tkinter GUI file
- ├📜 requirements.txt   # Python dependencies
- ├📜 README.md          # Project documentation
+ ├📜 malpractice_detection.py       # Core detection logic
+ ├📜 violation_reviewer.py          # To view captured photos
+ ├📜 exam_monitor.py                # Main file
+ ├📜 requirements.txt               # Python dependencies
+ ├📜 README.md                      # Project documentation
 ```
 
 ---
@@ -90,11 +88,6 @@ For major changes, please open an issue first to discuss what you would like to 
 
 ---
 
-## 🟡 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgements
 
@@ -104,4 +97,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-# 🚀 Let's make offline exams more secure together!
+# 🚀 Let's make offline exams more secure together! Made with LOVE by Kirthivasan M R
