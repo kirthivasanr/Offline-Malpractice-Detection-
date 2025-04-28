@@ -1,0 +1,6 @@
+opencv-contrib-python>=4.5.0 # Needed for Background Subtraction
+opencv-python>=4.5.0
+numpy>=1.19.0
+pillow>=8.0.0
+mediapipe>=0.10.11 # Or mediapipe>=0.9.0 if you don't need the very latest
+protobuf==3.20.3 # Or protobuf==3.19.4 if older MediaPipe is used
