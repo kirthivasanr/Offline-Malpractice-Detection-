@@ -1,7 +1,7 @@
 # 📚 Offline Exam Malpractice Detection Tool
 
 Welcome to the **Offline Malpractice Detection System**!  
-This project helps monitor and detect suspicious activities (like head movements, eye movements) during offline exams using **computer vision** — without any internet dependency.
+This project helps monitor and detect suspicious activities (like head movements, hand signs) during offline exams using **computer vision** — without any internet dependency.
 
 ---
 
